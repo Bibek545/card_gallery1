@@ -1,0 +1,120 @@
+<head>
+    <style>
+        .container {
+            height: 100vh;
+            width: 100vw;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 50% repeat(2, 1fr);
+            gap: 10px;
+        
+            grid-template-areas :
+            "item1 item1 item1"
+            "item1 item1 item1"
+            "item2 item3 item4"
+            ;
+        }
+        
+        .item1{
+        
+            /* background-color: blue; */
+            height: 50em;
+            width: 97em;
+            grid-area: item1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15px;
+        
+        }
+        .item1 img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+        
+        .item2{
+            height: 50em;
+            width: 30em;
+            grid-area: item1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-area: item2;
+            margin: 15px;
+        }
+        .item2 img {
+            height: 100%;
+            width: 100%;
+        }
+        
+        
+        .item3{
+            height: 50em;
+            width: 30em;
+            grid-area: item1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-area: item3;
+            margin: 15px;
+            
+        }
+        .item3 img {
+            height: 100%;
+            width: 100%;
+        }
+        
+        
+        .item4{
+            height: 50em;
+            width: 30em;
+            grid-area: item1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-area: item4;
+            margin: 15px;
+            
+        }
+        .item4 img {
+            height: 100%;
+            width: 100%;
+        }
+        @media only screen and (max-width: 300px) {
+            .container {
+                background-color: red;
+                grid-template-areas :
+                "item1 item1"
+                "item1 item1" 
+                "item1 item1"
+                "item2 item3" 
+                "item4"
+                ;
+            }
+        
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="item1">
+            <img src="rafi.png" alt="rafi" />
+            
+        </div>
+        <div class="item2">
+            <img src="amaretto1.png" alt="amertto" />
+            
+        </div>
+        <div class="item3">
+            <img src="aperol.png" alt="aperol" />
+            
+        </div>
+        <div class="item4">
+            <img src="martini.png" alt="martini" />
+            
+        </div>
+    </div>
+    
+</body>
