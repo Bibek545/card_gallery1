@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    background-color: grey;
 }
 /* .container {
     width: 100vw;
@@ -18,10 +19,34 @@
     /* align-items: center; */
     flex-wrap: wrap;
 }
-
+h1 {
+    color: white;
+    text-align: center;
+}
 .gallery img {
     height: auto;
     width: 20%;
-    margin: 10px;
-    padding: 20px;
+    /* margin: 10px; */
+    padding: 2px;
 }
+.gallery img:hover {
+   border: 5px solid red;
+}
+@media only screen and (max-width: 700px) {
+    .gallery img {
+      width: 60%;
+      margin: 6px;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .gallery img {
+      width: 40%;
+      margin: 3px;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .gallery img{
+      width: 90%;
+    }
+  }
