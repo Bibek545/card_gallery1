@@ -1,0 +1,40 @@
+ [
+    {
+        "title": "Man of steel",
+        "year": "2014",
+        "director": {
+            "fName" : "Zack",
+            "lName" : "Synder"
+        },
+        "rating": 10,
+        "actors": [{
+            "fName": "Henry",
+            "lName": "Cavill",
+            "age": 10
+         },{
+            "fName": "Chris",
+            "lName": "Evans",
+            "age": 10
+         }],
+        "availableOn": ["Netflix", "prime", "hulu"]
+    },
+    {
+        "title": "Batman",
+        "year": "2016",
+        "director": {
+            "fName" : "Zack",
+            "lName" : "Marlow"
+        },
+        "rating": 10,
+        "actors": [{
+            "fName": "Ben",
+            "lName": "Afleck",
+            "age": 10
+         },{
+            "fName": "Chris",
+            "lName": "Hemsworth",
+            "age": 10
+         }],
+        "availableOn": ["Netflix", "prime", "disney"]
+    }
+]
